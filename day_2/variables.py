@@ -1,5 +1,5 @@
 # Day 2: 30 Days of python programming
-
+'''
 first_name = 'Hadi '
 last_name = 'Chowdhury'
 full_name = first_name  + last_name
@@ -44,3 +44,24 @@ remainder = num_two % num_one
 
 exp = num_one ** num_two
 print(remainder)
+
+'''
+
+# r = 30
+
+# pi = 3.1416
+
+# area_of_circle = pi * r **2
+
+# print(area_of_circle)
+
+# circum_of_circle = 2 * pi * r
+
+# print(circum_of_circle)
+
+radius = input('radius r = : ')
+radius = int(radius)
+pi = 3.1416
+area_of_circle = pi * radius**2
+
+print(round(area_of_circle, 2))
