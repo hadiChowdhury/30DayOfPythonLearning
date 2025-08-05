@@ -12,3 +12,17 @@ print(it_companies)
 
 it_companies.remove('Meta')
 print(it_companies)
+
+C = A.union(B)
+print(C)
+print(A.intersection(B))
+print(A.issubset(B))
+print(A.isdisjoint(B))
+print(A.union(B))
+print(B.union(A))
+print(A.symmetric_difference(B))
+
+del A
+del B
+
+sentence = 'I am a teacher and I love to inspire and teach people'
