@@ -25,4 +25,23 @@ print(A.symmetric_difference(B))
 del A
 del B
 
+print(age)
+age_st = set(age)
+print(age_st)
+
+length_age = len(age)
+length_age_st = len(age_st)
+
+if length_age > length_age_st:
+    print("Age list is bigger")
+else:
+    print("Age set is bigger")
+
 sentence = 'I am a teacher and I love to inspire and teach people'
+
+sentence_split = sentence.split()
+
+unique_words = set(sentence_split)
+
+print("Unique words: ", sentence_split)
+print("Number of unique words: ", len(unique_words))
