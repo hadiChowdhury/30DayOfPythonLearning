@@ -11,6 +11,7 @@ dog['age'] = 12
 
 print(dog)
 
+#3
 student = {
     'first_name' : 'Shihab',
     'last_name' : 'Chowdhury',
@@ -25,4 +26,30 @@ student = {
         'zipcode':'02210'
     }
 }
+#4
+print(len(student))
 
+#5
+skills = student.get('skills')
+print(skills)
+print(type(skills))
+
+#6
+student['skills'].append('HTML')
+print(skills)
+
+#7
+print(student.keys())
+
+#8
+print(student.values())
+
+#9
+print(student.items())
+
+#10
+del student['address']
+print(student)
+
+#11
+del student
