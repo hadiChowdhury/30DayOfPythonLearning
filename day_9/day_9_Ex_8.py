@@ -16,8 +16,12 @@ print(person.get('skills'))
 
 if 'skills' in person:
     print('Skill is in the person dict')
-    middle_skill_index = len(person.get('skills'))//2
-    print(person['skills'][middle_skill_index]) 
+
+    if 'Python' in person.get('skills'):
+        print('Python is in the list')
+        print(person.get('skills'))
+    else:
+        print('python is not in the skill list')
     
 else:
     print('None')
