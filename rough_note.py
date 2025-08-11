@@ -1,8 +1,5 @@
-rows = 4
-
-num = 1
-for i in range(1, rows +1):
-    for j in range(1, i+1):
-        print(num, end=" ")
-        num +=1
-    print()
+def generate_groups (team,*args):
+    print(team)
+    for i in args:
+        print(i)
+print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
