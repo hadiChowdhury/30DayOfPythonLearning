@@ -4,4 +4,3 @@ def is_empty(inp):
     else:
         return 'Not empty'
 print("Output: ",is_empty([ ]))
-
